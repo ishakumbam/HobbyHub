@@ -65,6 +65,26 @@ npm run preview # preview production build locally
 
 ---
 
+## Push to GitHub
+
+The repo is ready to push. If the [GitHub CLI](https://cli.github.com/) is installed and you are logged in:
+
+```bash
+gh repo create hobbyhub --public --source=. --remote=origin --push
+```
+
+Otherwise, create a new empty repository named `hobbyhub` on GitHub, then:
+
+```bash
+cd /path/to/hobbyhub
+git remote add origin https://github.com/YOUR_USERNAME/hobbyhub.git
+git push -u origin main
+```
+
+(Use SSH if you prefer: `git@github.com:YOUR_USERNAME/hobbyhub.git`.)
+
+---
+
 ## License
 
 Private / educational use unless you add your own license.
