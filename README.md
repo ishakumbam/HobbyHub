@@ -8,19 +8,18 @@ A lightweight social-style **feed app** for sharing hobby posts with **titles**,
 
 ## Video overview
 
-Record a short screen walkthrough (features, create post, feed, detail page, comments, upvotes), upload it to **YouTube** (unlisted is fine) or **Loom**, then drop your link into the README.
+[Watch the HobbyHub overview →]
+<div>
+    <a href="https://www.loom.com/share/4fad851cd3424a44a0fd395afa07db96">
+      <p>HobbyHub - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/4fad851cd3424a44a0fd395afa07db96">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/4fad851cd3424a44a0fd395afa07db96-2823798ded10b9a8-full-play.gif#t=0.1">
+    </a>
+  </div>
 
-**Option A — YouTube thumbnail link (replace `YOUR_VIDEO_ID` with the ID from your video URL):**
 
-[![HobbyHub walkthrough](https://img.youtube.com/vi/YOUR_VIDEO_ID/hqdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
-**Option B — Plain link**
-
-[Watch the HobbyHub overview →](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-
-*(Delete this section’s placeholder lines once your real video is linked.)*
-
----
 
 ## Features
 
@@ -80,4 +79,4 @@ npm run dev
 
 ## License
 
-Private / educational use unless you add your own license.
+
