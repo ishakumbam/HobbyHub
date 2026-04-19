@@ -2,6 +2,8 @@
 
 A lightweight social-style **feed app** for sharing hobby posts with **titles**, optional **body text**, **external image URLs**, **comments**, and **unlimited upvotes** per click. Built with **React**, **Vite**, **Tailwind CSS v4**, **Framer Motion**, and **React Router**. Data lives in **localStorage** in the browser (no backend required for the demo).
 
+**Repository:** [github.com/ishakumbam/HobbyHub](https://github.com/ishakumbam/HobbyHub)
+
 ---
 
 ## Video overview
@@ -65,23 +67,14 @@ npm run preview # preview production build locally
 
 ---
 
-## Push to GitHub
-
-The repo is ready to push. If the [GitHub CLI](https://cli.github.com/) is installed and you are logged in:
+## Clone this repo
 
 ```bash
-gh repo create hobbyhub --public --source=. --remote=origin --push
+git clone https://github.com/ishakumbam/HobbyHub.git
+cd HobbyHub
+npm install
+npm run dev
 ```
-
-Otherwise, create a new empty repository named `hobbyhub` on GitHub, then:
-
-```bash
-cd /path/to/hobbyhub
-git remote add origin https://github.com/YOUR_USERNAME/hobbyhub.git
-git push -u origin main
-```
-
-(Use SSH if you prefer: `git@github.com:YOUR_USERNAME/hobbyhub.git`.)
 
 ---
 
