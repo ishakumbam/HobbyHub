@@ -1,0 +1,47 @@
+@import 'tailwindcss';
+
+/* Material You — seed #6750A4; tonal surfaces, MD standard easing */
+@theme {
+  --color-md-background: #fffbfe;
+  --color-md-on-surface: #1c1b1f;
+  --color-md-primary: #6750a4;
+  --color-md-on-primary: #ffffff;
+  --color-md-secondary-container: #e8def8;
+  --color-md-on-secondary-container: #1d192b;
+  --color-md-tertiary: #7d5260;
+  --color-md-on-tertiary: #ffffff;
+  --color-md-surface-container: #f3edf7;
+  --color-md-surface-container-low: #e7e0ec;
+  --color-md-outline: #79747e;
+  --color-md-on-surface-variant: #49454f;
+
+  --font-sans:
+    'Roboto', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji';
+
+  --ease-md-standard: cubic-bezier(0.2, 0, 0, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: var(--font-sans);
+    font-weight: 400;
+    @apply bg-md-background antialiased text-md-on-surface;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
